@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+img{
+    border-radius: 10px 0 0 10px;
+}
+
+.card-subtitle{
+    font-family: monospace;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+.cardbody{
+    border-radius: 0 10px 10px 0;
+}
+
+.card-title{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card-price{
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+.card-text{
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.original-price{
+    color: hsl(228, 12%, 48%);
+}
+
+.btn{
+    width: 80%;
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+    .card-title{
+        font-size: 20px;
+    }
+    .card-text{
+        padding: 0;
+        font-size: 12px;
+    }
+    .card-price{
+        padding: 0;
+        font-size: 15px;
+    }
+    .card-title{
+        padding: 0;
+    }
+    .card-subtitle{
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .cardbody{
+        padding: 0;
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        border-radius: 10px 10px 0 0;
+    }
+}
